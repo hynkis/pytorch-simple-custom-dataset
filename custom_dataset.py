@@ -69,9 +69,9 @@ class customDataset(Dataset):
         cv2.waitKey()
 
 def main():
-    dataset_dir  = "../dataset/train/img_data"
-    img_name_txt = "../dataset/train/img_data.txt"
-    label_txt    = "../dataset/train/img_data.txt"
+    dataset_dir  = "./dataset/valid/img_data"
+    img_name_txt = "./dataset/valid/img_data.txt"
+    label_txt    = "./dataset/valid/img_data.txt"
     transform    = None
 
     BATCH_SIZE = 10
